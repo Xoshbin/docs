@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Asyar",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -9,29 +9,220 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Download",
+          "icon": "download",
+          "href": "https://github.com/Xoshbin/asyar/releases/latest"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Extension Store",
+          "icon": "store",
+          "href": "https://asyar.org"
         }
       ]
-    }
+    },
+    "tabs": [
+      {
+        "tab": "User Guide",
+        "groups": [
+          {
+            "group": "Get started",
+            "pages": [
+              "index",
+              "guide/index",
+              "guide/getting-started",
+              "guide/the-basics",
+              "guide/keyboard-shortcuts"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "guide/features/index",
+              "guide/features/walkthrough",
+              "guide/features/ai-and-agents",
+              "guide/features/mcp",
+              "guide/features/aliases-and-shortcuts",
+              "guide/features/browser-integration",
+              "guide/features/calculator",
+              "guide/features/clipboard-history",
+              "guide/features/extensions",
+              "guide/features/file-search",
+              "guide/features/notes",
+              "guide/features/portals",
+              "guide/features/runs",
+              "guide/features/screen-ocr",
+              "guide/features/scripts",
+              "guide/features/snippets",
+              "guide/features/system",
+              "guide/features/usage-stats",
+              "guide/features/window-management",
+              "guide/features/migrating-from-raycast",
+              "guide/features/raycast-import"
+            ]
+          },
+          {
+            "group": "Settings and data",
+            "pages": [
+              "guide/settings",
+              "guide/sync-and-backup"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "guide/troubleshooting",
+              "guide/faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Developers",
+        "groups": [
+          {
+            "group": "Tutorials",
+            "pages": [
+              "tutorials/index",
+              "tutorials/prerequisites",
+              "tutorials/quick-start",
+              "tutorials/manual-setup",
+              "tutorials/bookmarks-example"
+            ]
+          },
+          {
+            "group": "How-to guides",
+            "pages": [
+              "how-to/index",
+              "how-to/use-create-extension-tool",
+              "how-to/extension-build-config",
+              "how-to/register-extension-tools",
+              "how-to/add-translations",
+              "how-to/debugging",
+              "how-to/best-practices",
+              "how-to/publishing"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/index",
+              "reference/manifest",
+              "reference/permissions",
+              "reference/cli",
+              "reference/actions",
+              "reference/command-arguments",
+              "reference/dynamic-commands",
+              "reference/deeplink-triggering",
+              "reference/background-scheduling",
+              "reference/builtin-tools",
+              "reference/host-settings",
+              "reference/script-headers",
+              "reference/searchbar-accessory",
+              "reference/silent-agents",
+              "reference/troubleshooting",
+              {
+                "group": "Extension types",
+                "pages": [
+                  "reference/extension-types/index",
+                  "reference/extension-types/extension",
+                  "reference/extension-types/in-view-search",
+                  "reference/extension-types/theme"
+                ]
+              },
+              {
+                "group": "SDK",
+                "pages": [
+                  "reference/sdk/index",
+                  "reference/sdk/action-service",
+                  "reference/sdk/ai-service",
+                  "reference/sdk/application-service",
+                  "reference/sdk/browser-service",
+                  "reference/sdk/cache-service",
+                  "reference/sdk/calculator-service",
+                  "reference/sdk/clipboard-history-service",
+                  "reference/sdk/command-service",
+                  "reference/sdk/entitlement-service",
+                  "reference/sdk/environment",
+                  "reference/sdk/errors",
+                  "reference/sdk/extension-manager",
+                  "reference/sdk/feedback-service",
+                  "reference/sdk/file-manager-service",
+                  "reference/sdk/file-system-watcher",
+                  "reference/sdk/files-service",
+                  "reference/sdk/interop-service",
+                  "reference/sdk/log-service",
+                  "reference/sdk/mcp-service",
+                  "reference/sdk/network-service",
+                  "reference/sdk/notes-service",
+                  "reference/sdk/notifications",
+                  "reference/sdk/oauth-service",
+                  "reference/sdk/onboarding-service",
+                  "reference/sdk/opener-service",
+                  "reference/sdk/power-service",
+                  "reference/sdk/preferences",
+                  "reference/sdk/process-service",
+                  "reference/sdk/run-service",
+                  "reference/sdk/screen-service",
+                  "reference/sdk/search-service",
+                  "reference/sdk/selection-service",
+                  "reference/sdk/settings-service",
+                  "reference/sdk/shell-service",
+                  "reference/sdk/snippets-service",
+                  "reference/sdk/status-bar-service",
+                  "reference/sdk/status-bar",
+                  "reference/sdk/storage-service",
+                  "reference/sdk/system-events",
+                  "reference/sdk/timers",
+                  "reference/sdk/tools-service",
+                  "reference/sdk/user-templates-pattern",
+                  "reference/sdk/window-management-service"
+                ]
+              },
+              {
+                "group": "Design system",
+                "pages": [
+                  "reference/design-system/index",
+                  "reference/design-system/design-language",
+                  "reference/design-system/tokens",
+                  "reference/design-system/components",
+                  "reference/design-system/icons"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Explanation",
+            "pages": [
+              "explanation/index",
+              "explanation/introduction",
+              "explanation/system-overview",
+              "explanation/technology-stack",
+              "explanation/two-tier-model",
+              "explanation/extension-runtime",
+              "explanation/lifecycle",
+              "explanation/ipc-bridge",
+              "explanation/permission-system",
+              "explanation/asyar-extension-protocol",
+              "explanation/browser-bridge-protocol",
+              "explanation/host-os-integration",
+              "explanation/host-startup-and-installation",
+              "explanation/launcher-rendering-lifecycle",
+              "explanation/data-persistence",
+              "explanation/clipboard-privacy",
+              "explanation/file-search",
+              "explanation/run-tracking",
+              "explanation/locale-and-internationalization",
+              "explanation/ai-provider-plugins",
+              "explanation/ai-extension-builder",
+              "explanation/idle-cost-investigation"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -40,14 +231,17 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "href": "https://discord.gg/vvYRXrs7Xa",
+        "label": "Community"
+      },
+      {
+        "href": "https://asyar.org",
+        "label": "Extension Store"
       }
     ],
     "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "type": "github",
+      "href": "https://github.com/Xoshbin/asyar"
     }
   },
   "contextual": {
@@ -64,9 +258,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/Xoshbin/asyar",
+      "discord": "https://discord.gg/vvYRXrs7Xa",
+      "reddit": "https://www.reddit.com/r/asyarapp",
+      "website": "https://asyar.org"
     }
   }
 }
